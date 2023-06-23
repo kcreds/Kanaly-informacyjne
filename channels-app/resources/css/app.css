@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.tableDiv {
+    margin: 5% auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table {
+    width: 100%;
+}
+
+.tableDiv th,
+.tableDiv td {
+    border: 1px solid #ddd;
+    /* Granice komórek */
+    padding: 8px;
+    /* Wewnętrzny padding komórek */
+    text-align: left;
+    /* Wyrównanie tekstu do lewej */
+}
+
+.tableDiv th {
+    background-color: #f2f2f2;
+    /* Tło nagłówka */
+}
+
+.tableDiv tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+    /* Tło co drugiego wiersza */
+}
+
+button,
+button[type=submit] {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0.7rem;
+    font-size: 16px;
+    margin: 3px;
+}
+
+.delete-button {
+    background-color: #bd0303;
+}
+
+.add-button {
+    background-color: #018333;
+    margin-bottom: 0.5rem;
+    width: 7rem;
+}
+
+
+
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 25%;
+}
+
+
+.inputContainer {
+    margin-bottom: 10px;
+}
+
+.buttonContainer {
+    float: right;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 3%;
+    font-size: large;
+}
+
+p {
+    font-weight: bold;
+}
